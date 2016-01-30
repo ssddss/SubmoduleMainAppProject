@@ -10,7 +10,9 @@
 #import "Masonry.h"
 #import "SDRequestManager.h"
 #import "AFNetworking.h"
+#import "UIImageView+WebCache.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -30,6 +32,10 @@
     [label mas_makeConstraints:^(MASConstraintMaker *make) {
         make.center.equalTo(self.view);
     }];
+    
+    
+    [self.imageView sd_setImageWithURL:[NSURL URLWithString:@"http://pic.nipic.com/2007-11-09/200711912453162_2.jpg"]];
+    
 }
 
 - (void)didReceiveMemoryWarning {
