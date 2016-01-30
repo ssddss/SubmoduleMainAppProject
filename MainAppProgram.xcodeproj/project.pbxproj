@@ -271,6 +271,7 @@
 		E537E52F1C5B5F430087BA8D /* Pods-resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
 		E537E5301C5B5F430087BA8D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		E537E5311C5B5F430087BA8D /* Pods.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E537E57C1C5C4C370087BA8D /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		E64DF4E3D14999EA4E54FD67 /* Pods-MainAppProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainAppProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainAppProgram/Pods-MainAppProgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -363,6 +364,7 @@
 		E537E47B1C5B5F430087BA8D /* CommonLib */ = {
 			isa = PBXGroup;
 			children = (
+				E537E5771C5C4C210087BA8D /* Constant */,
 				E537E47C1C5B5F430087BA8D /* Assets.xcassets */,
 				E537E47D1C5B5F430087BA8D /* SDLaunchScreen.storyboard */,
 				E537E47F1C5B5F430087BA8D /* SDMain.storyboard */,
@@ -680,6 +682,14 @@
 				E537E5311C5B5F430087BA8D /* Pods.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		E537E5771C5C4C210087BA8D /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E537E57C1C5C4C370087BA8D /* Header.h */,
+			);
+			path = Constant;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
