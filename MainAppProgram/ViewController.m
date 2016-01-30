@@ -13,6 +13,7 @@
 #import "UIImageView+WebCache.h"
 #import "Header.h"
 #import "Reachability.h"
+#import "Names.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
@@ -42,6 +43,9 @@
     
     Reachability *status = [Reachability reachabilityForInternetConnection];
     NSLog(@"%d",status.isReachable);
+    
+    NSLog(@"%@",kName);
+
 
 }
 
