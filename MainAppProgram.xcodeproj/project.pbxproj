@@ -272,6 +272,7 @@
 		E537E5301C5B5F430087BA8D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
 		E537E5311C5B5F430087BA8D /* Pods.release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
 		E537E57C1C5C4C370087BA8D /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		E537E57F1C5C53650087BA8D /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
 		E64DF4E3D14999EA4E54FD67 /* Pods-MainAppProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainAppProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainAppProgram/Pods-MainAppProgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -688,6 +689,7 @@
 			isa = PBXGroup;
 			children = (
 				E537E57C1C5C4C370087BA8D /* Header.h */,
+				E537E57F1C5C53650087BA8D /* Color.h */,
 			);
 			path = Constant;
 			sourceTree = "<group>";
