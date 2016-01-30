@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Masonry.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-MainAppProgram.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-MyExtension.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -18,6 +28,16 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>4D37ED3E34517DFBC47EDF49C69A75DE</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4E4C436458C5A16130837EE6A3591C6F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53480ED0BE09FF49E34B1702D485CAAB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
