@@ -1,0 +1,3 @@
+[submodule "MainAppProgram/Test_CommonLib"]
+	path = MainAppProgram/Test_CommonLib
+	url = https://github.com/ssddss/Test_CommonLib.git
