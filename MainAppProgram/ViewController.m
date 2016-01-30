@@ -12,6 +12,7 @@
 #import "AFNetworking.h"
 #import "UIImageView+WebCache.h"
 #import "Header.h"
+#import "Reachability.h"
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
@@ -38,6 +39,10 @@
     [self.imageView sd_setImageWithURL:[NSURL URLWithString:@"http://pic.nipic.com/2007-11-09/200711912453162_2.jpg"]];
     
     NSLog(@"%d",ScreenHeight);
+    
+    Reachability *status = [Reachability reachabilityForInternetConnection];
+    NSLog(@"%d",status.isReachable);
+
 }
 
 - (void)didReceiveMemoryWarning {
