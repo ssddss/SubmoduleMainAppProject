@@ -76,6 +76,73 @@
 		E569B5741C5C6811002C0D20 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B5731C5C6811002C0D20 /* TodayViewController.m */; };
 		E569B5771C5C6811002C0D20 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E569B5751C5C6811002C0D20 /* MainInterface.storyboard */; };
 		E569B57C1C5C6811002C0D20 /* MyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E569B56E1C5C6811002C0D20 /* MyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E569B5B51C5DF2C6002C0D20 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4E91C5C5B10002C0D20 /* MASViewConstraint.m */; };
+		E569B5B61C5DF2C6002C0D20 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4761C5C5B10002C0D20 /* AFAutoPurgingImageCache.m */; };
+		E569B5B71C5DF2C6002C0D20 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4EB1C5C5B10002C0D20 /* NSArray+MASAdditions.m */; };
+		E569B5B81C5DF2C6002C0D20 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4E71C5C5B10002C0D20 /* MASViewAttribute.m */; };
+		E569B5BA1C5DF2C6002C0D20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4F31C5C5B10002C0D20 /* ViewController+MASAdditions.m */; };
+		E569B5BB1C5DF2C6002C0D20 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E569B4FC1C5C5B11002C0D20 /* README.md */; };
+		E569B5BC1C5DF2C6002C0D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4691C5C5B10002C0D20 /* AFNetworkReachabilityManager.m */; };
+		E569B5BD1C5DF2C6002C0D20 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B5031C5C5B11002C0D20 /* Masonry-dummy.m */; };
+		E569B5BE1C5DF2C6002C0D20 /* SDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4581C5C5B10002C0D20 /* SDViewController.m */; };
+		E569B5BF1C5DF2C6002C0D20 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4DC1C5C5B10002C0D20 /* MASCompositeConstraint.m */; };
+		E569B5C01C5DF2C6002C0D20 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E2D11C5B52700087BA8D /* AppDelegate.m */; };
+		E569B5C11C5DF2C6002C0D20 /* SDRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B45B1C5C5B10002C0D20 /* SDRequestManager.m */; };
+		E569B5C21C5DF2C6002C0D20 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B47C1C5C5B10002C0D20 /* UIActivityIndicatorView+AFNetworking.m */; };
+		E569B5C31C5DF2C6002C0D20 /* Reachability-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B50F1C5C5B11002C0D20 /* Reachability-dummy.m */; };
+		E569B5C41C5DF2C6002C0D20 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4841C5C5B10002C0D20 /* UIProgressView+AFNetworking.m */; };
+		E569B5C51C5DF2C6002C0D20 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4DF1C5C5B10002C0D20 /* MASConstraint.m */; };
+		E569B5C61C5DF2C6002C0D20 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B47A1C5C5B10002C0D20 /* AFNetworkActivityIndicatorManager.m */; };
+		E569B5C71C5DF2C6002C0D20 /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4781C5C5B10002C0D20 /* AFImageDownloader.m */; };
+		E569B5C81C5DF2C6002C0D20 /* Pods-acknowledgements.markdown in Sources */ = {isa = PBXBuildFile; fileRef = E569B5071C5C5B11002C0D20 /* Pods-acknowledgements.markdown */; };
+		E569B5C91C5DF2C6002C0D20 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B47E1C5C5B10002C0D20 /* UIButton+AFNetworking.m */; };
+		E569B5CA1C5DF2C6002C0D20 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4811C5C5B10002C0D20 /* UIImageView+AFNetworking.m */; };
+		E569B5CB1C5DF2C6002C0D20 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B5091C5C5B11002C0D20 /* Pods-dummy.m */; };
+		E569B5CC1C5DF2C6002C0D20 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B46B1C5C5B10002C0D20 /* AFSecurityPolicy.m */; };
+		E569B5CD1C5DF2C6002C0D20 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4FF1C5C5B11002C0D20 /* AFNetworking-dummy.m */; };
+		E569B5CE1C5DF2C6002C0D20 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4E31C5C5B10002C0D20 /* MASLayoutConstraint.m */; };
+		E569B5CF1C5DF2C6002C0D20 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4F01C5C5B10002C0D20 /* View+MASAdditions.m */; };
+		E569B5D01C5DF2C6002C0D20 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B46D1C5C5B10002C0D20 /* AFURLRequestSerialization.m */; };
+		E569B5D11C5DF2C6002C0D20 /* SDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4551C5C5B10002C0D20 /* SDAppDelegate.m */; };
+		E569B5D21C5DF2C6002C0D20 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4FB1C5C5B11002C0D20 /* Reachability.m */; };
+		E569B5D31C5DF2C6002C0D20 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4881C5C5B10002C0D20 /* UIWebView+AFNetworking.m */; };
+		E569B5D41C5DF2C6002C0D20 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E537E2CE1C5B52700087BA8D /* main.m */; };
+		E569B5D51C5DF2C6002C0D20 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4EE1C5C5B10002C0D20 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		E569B5D61C5DF2C6002C0D20 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E569B4731C5C5B10002C0D20 /* README.md */; };
+		E569B5D71C5DF2C6002C0D20 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E569B4F41C5C5B10002C0D20 /* README.md */; };
+		E569B5D81C5DF2C6002C0D20 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4E11C5C5B10002C0D20 /* MASConstraintMaker.m */; };
+		E569B5D91C5DF2C6002C0D20 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4861C5C5B10002C0D20 /* UIRefreshControl+AFNetworking.m */; };
+		E569B5DA1C5DF2C6002C0D20 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B46F1C5C5B10002C0D20 /* AFURLResponseSerialization.m */; };
+		E569B5DB1C5DF2C6002C0D20 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4711C5C5B10002C0D20 /* AFURLSessionManager.m */; };
+		E569B5DC1C5DF2C6002C0D20 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B4661C5C5B10002C0D20 /* AFHTTPSessionManager.m */; };
+		E569B5DE1C5DF2C6002C0D20 /* libPods-MainAppProgram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E10BC4427E18FFDCDDC10B71 /* libPods-MainAppProgram.a */; };
+		E569B5E01C5DF2C6002C0D20 /* Pods-resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = E569B50B1C5C5B11002C0D20 /* Pods-resources.sh */; };
+		E569B5E11C5DF2C6002C0D20 /* LICENCE.txt in Resources */ = {isa = PBXBuildFile; fileRef = E569B4F91C5C5B11002C0D20 /* LICENCE.txt */; };
+		E569B5E21C5DF2C6002C0D20 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E569B4601C5C5B10002C0D20 /* Podfile */; };
+		E569B5E31C5DF2C6002C0D20 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E569B4481C5C5B10002C0D20 /* .gitignore */; };
+		E569B5E41C5DF2C6002C0D20 /* AFNetworking.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E569B5011C5C5B11002C0D20 /* AFNetworking.xcconfig */; };
+		E569B5E51C5DF2C6002C0D20 /* SDInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = E569B4561C5C5B10002C0D20 /* SDInfo.plist */; };
+		E569B5E61C5DF2C6002C0D20 /* Masonry.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E569B5051C5C5B11002C0D20 /* Masonry.xcconfig */; };
+		E569B5E71C5DF2C6002C0D20 /* CommonLib.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = E569B45F1C5C5B10002C0D20 /* CommonLib.xcworkspace */; };
+		E569B5E81C5DF2C6002C0D20 /* SDMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E569B44D1C5C5B10002C0D20 /* SDMain.storyboard */; };
+		E569B5E91C5DF2C6002C0D20 /* Pods.debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E569B50C1C5C5B11002C0D20 /* Pods.debug.xcconfig */; };
+		E569B5EA1C5DF2C6002C0D20 /* Reachability.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E569B5111C5C5B11002C0D20 /* Reachability.xcconfig */; };
+		E569B5EB1C5DF2C6002C0D20 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E2DB1C5B52700087BA8D /* LaunchScreen.storyboard */; };
+		E569B5EC1C5DF2C6002C0D20 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E569B4721C5C5B10002C0D20 /* LICENSE */; };
+		E569B5ED1C5DF2C6002C0D20 /* Podfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = E569B4611C5C5B10002C0D20 /* Podfile.lock */; };
+		E569B5EE1C5DF2C6002C0D20 /* Pods.release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = E569B50D1C5C5B11002C0D20 /* Pods.release.xcconfig */; };
+		E569B5EF1C5DF2C6002C0D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E537E2D91C5B52700087BA8D /* Assets.xcassets */; };
+		E569B5F01C5DF2C6002C0D20 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E537E2D61C5B52700087BA8D /* Main.storyboard */; };
+		E569B5F11C5DF2C6002C0D20 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = E569B4D91C5C5B10002C0D20 /* LICENSE */; };
+		E569B5F21C5DF2C6002C0D20 /* Pods-frameworks.sh in Resources */ = {isa = PBXBuildFile; fileRef = E569B50A1C5C5B11002C0D20 /* Pods-frameworks.sh */; };
+		E569B5F31C5DF2C6002C0D20 /* SDLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E569B44B1C5C5B10002C0D20 /* SDLaunchScreen.storyboard */; };
+		E569B5F41C5DF2C6002C0D20 /* Pods-acknowledgements.plist in Resources */ = {isa = PBXBuildFile; fileRef = E569B5081C5C5B11002C0D20 /* Pods-acknowledgements.plist */; };
+		E569B5F51C5DF2C6002C0D20 /* Manifest.lock in Resources */ = {isa = PBXBuildFile; fileRef = E569B4D71C5C5B10002C0D20 /* Manifest.lock */; };
+		E569B5F61C5DF2C6002C0D20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E569B44A1C5C5B10002C0D20 /* Assets.xcassets */; };
+		E569B5FA1C5DF2C6002C0D20 /* MyExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E569B56E1C5C6811002C0D20 /* MyExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E569B6071C5DF3C7002C0D20 /* SubProject1Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E569B6061C5DF3C7002C0D20 /* SubProject1Info.plist */; };
+		E569B60A1C5DF756002C0D20 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E569B6091C5DF756002C0D20 /* ViewController.m */; };
+		E569B60B1C5DF798002C0D20 /* ViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = E569B6081C5DF756002C0D20 /* ViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,6 +188,13 @@
 			remoteGlobalIDString = E569B56D1C5C6811002C0D20;
 			remoteInfo = MyExtension;
 		};
+		E569B5B21C5DF2C6002C0D20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E537E2C21C5B52700087BA8D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E569B56D1C5C6811002C0D20;
+			remoteInfo = MyExtension;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -131,6 +205,17 @@
 			dstSubfolderSpec = 13;
 			files = (
 				E569B57C1C5C6811002C0D20 /* MyExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569B5F91C5DF2C6002C0D20 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E569B5FA1C5DF2C6002C0D20 /* MyExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -329,6 +414,10 @@
 		E569B5731C5C6811002C0D20 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		E569B5761C5C6811002C0D20 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		E569B5781C5C6811002C0D20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E569B5FE1C5DF2C6002C0D20 /* SubProjet1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SubProjet1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E569B6061C5DF3C7002C0D20 /* SubProject1Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SubProject1Info.plist; sourceTree = "<group>"; };
+		E569B6081C5DF756002C0D20 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E569B6091C5DF756002C0D20 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E64DF4E3D14999EA4E54FD67 /* Pods-MainAppProgram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MainAppProgram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MainAppProgram/Pods-MainAppProgram.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -347,6 +436,14 @@
 			files = (
 				E569B5701C5C6811002C0D20 /* NotificationCenter.framework in Frameworks */,
 				3C4DA843AC9CFC881ECEEBEB /* libPods-MyExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569B5DD1C5DF2C6002C0D20 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569B5DE1C5DF2C6002C0D20 /* libPods-MainAppProgram.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,6 +474,7 @@
 		E537E2C11C5B52700087BA8D = {
 			isa = PBXGroup;
 			children = (
+				E569B6051C5DF3C7002C0D20 /* SubProject1 */,
 				E537E2CC1C5B52700087BA8D /* MainAppProgram */,
 				E569B5711C5C6811002C0D20 /* MyExtension */,
 				E537E2CB1C5B52700087BA8D /* Products */,
@@ -390,6 +488,7 @@
 			children = (
 				E537E2CA1C5B52700087BA8D /* MainAppProgram.app */,
 				E569B56E1C5C6811002C0D20 /* MyExtension.appex */,
+				E569B5FE1C5DF2C6002C0D20 /* SubProjet1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -826,6 +925,16 @@
 			path = MyExtension;
 			sourceTree = "<group>";
 		};
+		E569B6051C5DF3C7002C0D20 /* SubProject1 */ = {
+			isa = PBXGroup;
+			children = (
+				E569B6061C5DF3C7002C0D20 /* SubProject1Info.plist */,
+				E569B6081C5DF756002C0D20 /* ViewController.h */,
+				E569B6091C5DF756002C0D20 /* ViewController.m */,
+			);
+			path = SubProject1;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -871,6 +980,28 @@
 			productReference = E569B56E1C5C6811002C0D20 /* MyExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		E569B5B01C5DF2C6002C0D20 /* SubProjet1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E569B5FB1C5DF2C6002C0D20 /* Build configuration list for PBXNativeTarget "SubProjet1" */;
+			buildPhases = (
+				E569B5B31C5DF2C6002C0D20 /* Check Pods Manifest.lock */,
+				E569B5B41C5DF2C6002C0D20 /* Sources */,
+				E569B5DD1C5DF2C6002C0D20 /* Frameworks */,
+				E569B5DF1C5DF2C6002C0D20 /* Resources */,
+				E569B5F71C5DF2C6002C0D20 /* Embed Pods Frameworks */,
+				E569B5F81C5DF2C6002C0D20 /* Copy Pods Resources */,
+				E569B5F91C5DF2C6002C0D20 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E569B5B11C5DF2C6002C0D20 /* PBXTargetDependency */,
+			);
+			name = SubProjet1;
+			productName = MainAppProgram;
+			productReference = E569B5FE1C5DF2C6002C0D20 /* SubProjet1.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -914,6 +1045,7 @@
 			targets = (
 				E537E2C91C5B52700087BA8D /* MainAppProgram */,
 				E569B56D1C5C6811002C0D20 /* MyExtension */,
+				E569B5B01C5DF2C6002C0D20 /* SubProjet1 */,
 			);
 		};
 /* End PBXProject section */
@@ -966,6 +1098,7 @@
 				E569B51C1C5C5B11002C0D20 /* Podfile in Resources */,
 				E569B5121C5C5B11002C0D20 /* .gitignore in Resources */,
 				E569B5401C5C5B11002C0D20 /* AFNetworking.xcconfig in Resources */,
+				E569B6071C5DF3C7002C0D20 /* SubProject1Info.plist in Resources */,
 				E569B5181C5C5B11002C0D20 /* SDInfo.plist in Resources */,
 				E569B5421C5C5B11002C0D20 /* Masonry.xcconfig in Resources */,
 				E569B51B1C5C5B11002C0D20 /* CommonLib.xcworkspace in Resources */,
@@ -992,6 +1125,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				E569B5771C5C6811002C0D20 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E569B5DF1C5DF2C6002C0D20 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569B5E01C5DF2C6002C0D20 /* Pods-resources.sh in Resources */,
+				E569B5E11C5DF2C6002C0D20 /* LICENCE.txt in Resources */,
+				E569B5E21C5DF2C6002C0D20 /* Podfile in Resources */,
+				E569B5E31C5DF2C6002C0D20 /* .gitignore in Resources */,
+				E569B5E41C5DF2C6002C0D20 /* AFNetworking.xcconfig in Resources */,
+				E569B5E51C5DF2C6002C0D20 /* SDInfo.plist in Resources */,
+				E569B5E61C5DF2C6002C0D20 /* Masonry.xcconfig in Resources */,
+				E569B5E71C5DF2C6002C0D20 /* CommonLib.xcworkspace in Resources */,
+				E569B5E81C5DF2C6002C0D20 /* SDMain.storyboard in Resources */,
+				E569B5E91C5DF2C6002C0D20 /* Pods.debug.xcconfig in Resources */,
+				E569B5EA1C5DF2C6002C0D20 /* Reachability.xcconfig in Resources */,
+				E569B5EB1C5DF2C6002C0D20 /* LaunchScreen.storyboard in Resources */,
+				E569B5EC1C5DF2C6002C0D20 /* LICENSE in Resources */,
+				E569B5ED1C5DF2C6002C0D20 /* Podfile.lock in Resources */,
+				E569B5EE1C5DF2C6002C0D20 /* Pods.release.xcconfig in Resources */,
+				E569B5EF1C5DF2C6002C0D20 /* Assets.xcassets in Resources */,
+				E569B5F01C5DF2C6002C0D20 /* Main.storyboard in Resources */,
+				E569B5F11C5DF2C6002C0D20 /* LICENSE in Resources */,
+				E569B5F21C5DF2C6002C0D20 /* Pods-frameworks.sh in Resources */,
+				E569B5F31C5DF2C6002C0D20 /* SDLaunchScreen.storyboard in Resources */,
+				E569B5F41C5DF2C6002C0D20 /* Pods-acknowledgements.plist in Resources */,
+				E569B5F51C5DF2C6002C0D20 /* Manifest.lock in Resources */,
+				E569B5F61C5DF2C6002C0D20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1088,6 +1251,51 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
+		E569B5B31C5DF2C6002C0D20 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E569B5F71C5DF2C6002C0D20 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainAppProgram/Pods-MainAppProgram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E569B5F81C5DF2C6002C0D20 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MainAppProgram/Pods-MainAppProgram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1146,6 +1354,54 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E569B5B41C5DF2C6002C0D20 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E569B60B1C5DF798002C0D20 /* ViewController.h in Sources */,
+				E569B60A1C5DF756002C0D20 /* ViewController.m in Sources */,
+				E569B5B51C5DF2C6002C0D20 /* MASViewConstraint.m in Sources */,
+				E569B5B61C5DF2C6002C0D20 /* AFAutoPurgingImageCache.m in Sources */,
+				E569B5B71C5DF2C6002C0D20 /* NSArray+MASAdditions.m in Sources */,
+				E569B5B81C5DF2C6002C0D20 /* MASViewAttribute.m in Sources */,
+				E569B5BA1C5DF2C6002C0D20 /* ViewController+MASAdditions.m in Sources */,
+				E569B5BB1C5DF2C6002C0D20 /* README.md in Sources */,
+				E569B5BC1C5DF2C6002C0D20 /* AFNetworkReachabilityManager.m in Sources */,
+				E569B5BD1C5DF2C6002C0D20 /* Masonry-dummy.m in Sources */,
+				E569B5BE1C5DF2C6002C0D20 /* SDViewController.m in Sources */,
+				E569B5BF1C5DF2C6002C0D20 /* MASCompositeConstraint.m in Sources */,
+				E569B5C01C5DF2C6002C0D20 /* AppDelegate.m in Sources */,
+				E569B5C11C5DF2C6002C0D20 /* SDRequestManager.m in Sources */,
+				E569B5C21C5DF2C6002C0D20 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				E569B5C31C5DF2C6002C0D20 /* Reachability-dummy.m in Sources */,
+				E569B5C41C5DF2C6002C0D20 /* UIProgressView+AFNetworking.m in Sources */,
+				E569B5C51C5DF2C6002C0D20 /* MASConstraint.m in Sources */,
+				E569B5C61C5DF2C6002C0D20 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				E569B5C71C5DF2C6002C0D20 /* AFImageDownloader.m in Sources */,
+				E569B5C81C5DF2C6002C0D20 /* Pods-acknowledgements.markdown in Sources */,
+				E569B5C91C5DF2C6002C0D20 /* UIButton+AFNetworking.m in Sources */,
+				E569B5CA1C5DF2C6002C0D20 /* UIImageView+AFNetworking.m in Sources */,
+				E569B5CB1C5DF2C6002C0D20 /* Pods-dummy.m in Sources */,
+				E569B5CC1C5DF2C6002C0D20 /* AFSecurityPolicy.m in Sources */,
+				E569B5CD1C5DF2C6002C0D20 /* AFNetworking-dummy.m in Sources */,
+				E569B5CE1C5DF2C6002C0D20 /* MASLayoutConstraint.m in Sources */,
+				E569B5CF1C5DF2C6002C0D20 /* View+MASAdditions.m in Sources */,
+				E569B5D01C5DF2C6002C0D20 /* AFURLRequestSerialization.m in Sources */,
+				E569B5D11C5DF2C6002C0D20 /* SDAppDelegate.m in Sources */,
+				E569B5D21C5DF2C6002C0D20 /* Reachability.m in Sources */,
+				E569B5D31C5DF2C6002C0D20 /* UIWebView+AFNetworking.m in Sources */,
+				E569B5D41C5DF2C6002C0D20 /* main.m in Sources */,
+				E569B5D51C5DF2C6002C0D20 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				E569B5D61C5DF2C6002C0D20 /* README.md in Sources */,
+				E569B5D71C5DF2C6002C0D20 /* README.md in Sources */,
+				E569B5D81C5DF2C6002C0D20 /* MASConstraintMaker.m in Sources */,
+				E569B5D91C5DF2C6002C0D20 /* UIRefreshControl+AFNetworking.m in Sources */,
+				E569B5DA1C5DF2C6002C0D20 /* AFURLResponseSerialization.m in Sources */,
+				E569B5DB1C5DF2C6002C0D20 /* AFURLSessionManager.m in Sources */,
+				E569B5DC1C5DF2C6002C0D20 /* AFHTTPSessionManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1153,6 +1409,11 @@
 			isa = PBXTargetDependency;
 			target = E569B56D1C5C6811002C0D20 /* MyExtension */;
 			targetProxy = E569B5791C5C6811002C0D20 /* PBXContainerItemProxy */;
+		};
+		E569B5B11C5DF2C6002C0D20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E569B56D1C5C6811002C0D20 /* MyExtension */;
+			targetProxy = E569B5B21C5DF2C6002C0D20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1313,7 +1574,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.MainAppProgram.MyExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.SubProject1.MyExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1326,9 +1587,35 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MyExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.MainAppProgram.MyExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.SubProject1.MyExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E569B5FC1C5DF2C6002C0D20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E64DF4E3D14999EA4E54FD67 /* Pods-MainAppProgram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/SubProject1/SubProject1Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.SubProject1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E569B5FD1C5DF2C6002C0D20 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0459092638CC9D5DC287B1ED /* Pods-MainAppProgram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/SubProject1/SubProject1Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssdd.SubProject1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -1358,6 +1645,15 @@
 			buildConfigurations = (
 				E569B57D1C5C6811002C0D20 /* Debug */,
 				E569B57E1C5C6811002C0D20 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E569B5FB1C5DF2C6002C0D20 /* Build configuration list for PBXNativeTarget "SubProjet1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E569B5FC1C5DF2C6002C0D20 /* Debug */,
+				E569B5FD1C5DF2C6002C0D20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

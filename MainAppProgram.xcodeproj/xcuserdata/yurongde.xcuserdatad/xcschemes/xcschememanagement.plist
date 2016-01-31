@@ -12,7 +12,12 @@
 		<key>MyExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>6</integer>
+		</dict>
+		<key>SubProjet1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -23,6 +28,11 @@
 			<true/>
 		</dict>
 		<key>E569B56D1C5C6811002C0D20</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E569B5B01C5DF2C6002C0D20</key>
 		<dict>
 			<key>primary</key>
 			<true/>
